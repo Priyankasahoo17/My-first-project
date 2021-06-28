@@ -15,9 +15,10 @@ html{
 
 /* Navigation Bar */
 #navbar{
+    background-color: #86786e66;
     display: flex;
     align-items: center;
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 
@@ -25,7 +26,7 @@ html{
     content: "";
     background-color: black;
     position: absolute;
-    top:0px;
+    top:1px;
     left:0px;
     height: 100%;
     width:100%;
@@ -109,6 +110,7 @@ html{
     display: flex;
 }
 #services .box{ 
+    box-shadow: 2px 6px 10px 2px;
     border: 2px solid brown;
     padding: 34px;
     margin: 2px 55px;
@@ -173,6 +175,7 @@ html{
 
 }
 #contact-box{
+    background-color: #e8ebed;
     display: flex;
     justify-content: center;
     align-items: center;
